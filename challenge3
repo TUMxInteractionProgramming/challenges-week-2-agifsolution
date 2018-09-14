@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+
+<html lang=en>
+    
+    <head>
+       <title>chatter|app</title>
+            <style>
+                /* Color Palette:
+                background-color: lightgray
+                primary-text: darkblue
+                primary-color: dodgerblue
+                primary-color-text: white
+                accent color: lawngreen
+                accent-color-text: black */
+                
+                * { 
+                    background-color: lightgray;
+                    font-family: Arial, sans-serif;
+                }
+                
+                p { 
+                    background-color: white;
+                    color: darkblue;
+                    font-size: medium;
+                }
+                
+                h1 { 
+                    background-color: dodgerblue;
+                    color: white;
+                }
+                
+                 b { 
+                    background-color: dodgerblue;
+                    text-transform: uppercase;
+                    font-size: x-large;
+                }
+                
+                button { 
+                    background-color: lawngreen;
+                    color: black;
+                    text-transform: uppercase;
+                }
+                
+                strong {
+                    text-transform: uppercase
+                }
+                
+                small {
+                    font-weight: bold;
+                }
+                
+                em { 
+                    font-size: larger;
+                    font-style: normal;
+                }
+                
+                ul {
+                    list-style: none;
+                    background-color: white;
+                    font-weight: bold;
+                }
+                
+                li {
+                    background-color: white;
+                    text-transform: uppercase;
+                }
+                
+            </style>
+    </head>
+    <body>
+        
+        <!-- HEADER -->
+        
+        <h1><img src="https://ip.lfe.mw.tum.de/sections/moocus.png" style="height: 56px; background-color: dodgerblue;" alt="moocus duck;">chatter|app</h1>
+    
+        <!-- TRENDING CHANNELS -->
+        <div style="background-color: white;">
+            <ul>
+                <li>#NoodeBar<img src="https://ip.lfe.mw.tum.de/sections/star.png" style="background-color: white;" alt="favorites"></li>
+                <li>#Watergate<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" style="background-color: white;" alt="favorites"></li>
+                <li>#Fear<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" style="background-color: white;" alt="favorites"></li>
+                <li>#MarsLanding<img src="https://ip.lfe.mw.tum.de/sections/star.png" style="background-color: white;" alt="favorites"></li>
+                <li>#HalloweenCostume<img src="https://ip.lfe.mw.tum.de/sections/star-o.png" style="background-color: white;" alt="favorites"></li>
+            </ul>
+        
+            <!-- TAB-BAR BUTTONS -->
+            
+            <div style="background-color: white;">
+                    <button type="button" style="background-color: lightgray;"><img src="https://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="new">New</button>
+                    <button type="button" style="background-color: lightgray;"><img src="https://ip.lfe.mw.tum.de/sections/fire.png" alt="trending">Trending</button>
+                    <button type="button" style="background-color: lightgray;"><img src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="favorites">Favorites</button>
+            </div>
+    </div>
+        
+    <hr>
+        
+    <!-- CHATBOX -->
+    <h1>#Watergate by <b>daring.little.women</b></h1>
+        
+        <!--User 1 Comment-->
+    <div>
+        <strong><a href="https://map.what3words.com/novel.ocean.highs" style="color: darkblue;">novel.ocean.highs</a></strong> <small>Wed, June 20th, 13:37 <em>15 min. left</em></small>
+    
+        <p>Did anyone else see this coming?</p>
+        <button type="button">+5 min.</button><br><br>
+    </div>
+        
+        <!--User 2 Comment-->
+    <div>
+        <strong><a href="https://map.what3words.com/pays.trend.fuels" style="color: darkblue;">pays.trend.fuels</a></strong> <small> Wed, June 20th, 13:39 <em>4 min. left</em></small>
+
+        <p>This is very transparent.</p>
+        <button type="button">+5 min.</button><br><br>
+     </div>   
+        
+        <!-- User 3 Comment -->
+    <div>
+        <strong><a href="https://map.what3words.com/wage.views.island" style="color: darkblue;">wage.views.island</a></strong><small> Wed, June 20th, 14:02 <em>12 min. left</em></small>
+
+        <p>A lot of noise in that cabinet!</p>
+        <button type="button">+5 min</button><br><br>
+     </div>   
+        
+        <!--User 4 Comment-->
+    <div>
+        <strong><a href="https://map.what3words.com/funded.fleet.strong" style="color: darkblue;">funded.fleet.strong</a></strong><small> Wed, June 20th, 14:02<em> 7 min. left</em></small>
+
+        <p>Word.</p>
+        <button type="button">+5 min</button><br><br>
+    </div>    
+        
+        <!--User 5 Comment-->
+    <div>
+        <strong><a href="https://map.what3words.com/digs.spare.hobby" style="color: darkblue;">digs.spare.hobby</a></strong> <small>Wed, June 20th, 14:07 <em>14 min. left</em></small>
+
+        <p>I saw it coming.</p>
+        <button type="button">+5 min</button><br><br>
+    </div>
+    </body>
+    
+</html>
